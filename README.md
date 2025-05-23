@@ -52,7 +52,7 @@ To install WeEmploy you'll need pip and Git. It also uses a some Python packages
 You can install WeEmploy by cloning the repository:
 
 ```sh
-git clone https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis.git
+https://github.com/utsav422/Personality-prediction-system.git
 ```
 
 ## Instructions
