@@ -1,0 +1,4 @@
+myenv
+.vscode
+.venv
+node_modules
