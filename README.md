@@ -5,7 +5,6 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 
 
 ## Table of Contents
-* [Demo](#demo)
 * [Prerequisites & Development Libraries](#prerequisites-development-libraries)
 * [Installation](#installation)
 * [Instructions](#instructions)
@@ -16,20 +15,6 @@ The project aims to develop a prototype of a platform that eradicates the tradit
 * [Personality Test](#personality-test)
 * [CV Analysis](#cv-analysis)
 * [Disclaimer](#disclaimer)
-
-
-## Demo
-
-
-
-The video below shows a live demo of how the web application works.
-
-### Demo Video
-
-The video below shows a live demo of how the web application works.
-
-[WeEmploy Demo Video](https://drive.google.com/drive/u/0/folders/161UDIjruZur61fq8F_vkUc6TFXbvjOHH)
-
 
 
 ## Prerequisites & Development Libraries
@@ -122,7 +107,7 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 #### Candidate View Process Flow
 * Registration
 
-![Register](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/register.jpg)
+![Register](https://github.com/utsav422/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/register.jpg)
 
 
 * Login
