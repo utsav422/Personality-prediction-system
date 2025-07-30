@@ -112,7 +112,7 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 
 * Login
 
-![Login]((https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/login.jpg))
+![Login](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/login.jpg)
 
 
 * Answers questions
