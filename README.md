@@ -107,7 +107,7 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 #### Candidate View Process Flow
 * Registration
 
-![Register](https://github.com/utsav422/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/register.jpg)
+![Register](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/register.jpg)
 
 
 * Login
@@ -117,12 +117,12 @@ Questions can be from four main sections namely Science, Commerce, Humanities, a
 
 * Answers questions
 
-![Qpage](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/qpage.jpg)
+![Qpage](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/qpage.jpg)
 
 
 * Views report 
 
-![Report](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/report.jpg)
+![Report](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/report.jpg)
 
 
 
@@ -163,7 +163,7 @@ that recognises their MBTI type; and in the second step, communicate with other 
 ### Proportionality in the Dataset
 In this step, matplotlib which is a Python 2D plotting library were used for data preview and to determine the distribution of the MBTI personality types in the dataset. 
 
-![Proportionality](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/classd.png)
+![Proportionality](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/classd.png)
 
 The image above show a non-uniform representation of MBTI types in the dataset that is not
 commensurate with the actual proportions of MBTI types. As a result, it was clear that some cleaning in the dataset would be necessary in order to improve the
@@ -176,7 +176,7 @@ Four different categories were created for the type indicators in order to under
 The first category was for Introversion (I)/Extroversion (E), the second
 category was for Intuition (N)/Sensing (S), the third was for Thinking (T)/Feeling (F)and the fourthcategory was for Judging (J)/Perceiving (P). As a result, for each category, one letter will return and at the end there will be four letters that represent one of the 16 personality types in the MBTI. For instance, if the first category is returning I, the second category is returning N, the third category is returning T and the fourth category is returning J, the relevant personality type would be INTJ.
 
-![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/class_distribution.png)
+![Distribution](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/class_distribution.png)
 
 
 
@@ -192,7 +192,7 @@ is Judging (J)/ Perceiving (P), the distribution of Perceiving (P)  is greater t
 ### WordCloud of Frequently Used Words
 Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites. Word cloud was used to analyze the most frequently used words for each of the personalities.
 
-![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/wordcloud.png)
+![Distribution](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/wordcloud.png)
 
 
 ### Pre-Processing the Dataset
@@ -203,7 +203,7 @@ result, NLTK was used to remove the MBTI types from the dataset. After this step
 of MBTI personality types in the dataset was determined again. In addition, all urls and stop words were removed from the dataset. Finally, in order to
 make the dataset more meaningful, the text was lemmatised, i.e., inflected forms of the words were transformed into their root words. Imbalanced data was also handled where the random over sampler function was used. This ensured that the categoraization of type indicatores in four dimenstions were balanced.
 
-![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/balancedg.png)
+![Distribution](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/balancedg.png)
 
 
 ### Vectorise with Count and Term Frequency–Inverse Document Frequency (TF–IDF)
@@ -236,7 +236,7 @@ In selection of a model for the third category which is Judging (J)/ Perceiving 
 For prediction of fourth category which is Judging (J)/ Perceiving (P), the SVM is the most preferred model to use due to its performance against the other classification models.
 
 
-![Distribution](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/res.png)
+![Distribution](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/res.png)
 
 
 ## Usage of Models in Web Application
@@ -246,12 +246,12 @@ The models are loaded, the users tweets are pre-processed and predictions are ma
 
 ## Personality prediction interface
 Type the twitter handle without the @ symbol.
-![Prediction](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prediction.jpg)
+![Prediction](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/prediction.jpg)
 
 ## Predicted result
 Predicted personality of the user and some tweets.
 
-![Prederes](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/prederes.jpg)
+![Prederes](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/prederes.jpg)
 
 
 
@@ -261,7 +261,7 @@ Though curriculum vitae analysis is necessary to ensure recruiters do not miss g
 
 For parsing CVs, we have used pyresparser which is a simple resume parser used for extracting important features such as name, email id, description, skills from CVs. Pyresparser supports PDF and DOCx files. 
 
-![CV Page](https://github.com/philkam/AI_Personality-Prediction-System-Through-CV-Analysis/blob/main/Readme_images/cvpage.jpg)
+![CV Page](https://github.com/utsav422/Personality-prediction-system/blob/main/Readme_images/cvpage.jpg)
 
 ### Features
 
